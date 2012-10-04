@@ -62,14 +62,13 @@ def getFile(url,outFile):
     
     
 
-mainURL = "http://networkx.lanl.gov/examples/3d_drawing/mayavi2_spring.html"
+getFile(sys.argv[1],"oriFile")
 
-
-f = open(sys.argv[1],'r')
+f = open("oriFile",'r')
 text = f.read()
-#print text
 
 fileList = getFileList(text)
+
 
 for url in fileList:
     print "now saving ...", fileList[url] , " from ", url
