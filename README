@@ -1,0 +1,9 @@
+"""getFiles.py - given a url, downloads it and all it's linked files """
+__author__ = "Wishva Herath"
+__email__ = "wishvamalli@gmail.com"
+__copyright__ = "Copyright 2012"
+__status__ = "Prototype"
+__version__ = "0.0.1"
+__license__ = "GPL"
+
+no warranty! Use at your own risk!
